@@ -1,0 +1,931 @@
+{
+    "targets": [
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeb0",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/api/csrf-token",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeb1",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "http",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/api/iam/login-processes/",
+            "body": {
+                "type": "str",
+                "value": "{\"email\":\"$_1@gmail.com\",\"password\":\"$_1\"}"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeb2",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/api/iam/password-blacklists/get-passwords-for-hash-start?hashStart=4d3c$_5",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeb3",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "http",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/api/iam/users/registration",
+            "body": {
+                "type": "str",
+                "value": "{\"email\":\"$_1@gmial.com\",\"password\":\"Qwerty12\",\"attributes\":[{\"attributeIdentifier\":\"users.salutation\",\"value\":\"neutral\"},{\"attributeIdentifier\":\"users.given-name\",\"value\":\"Biorne\"},{\"attributeIdentifier\":\"users.family-name\",\"value\":\"Drits\"},{\"attributeIdentifier\":\"users.preferred-language\",\"value\":\"fr-CH\"},{\"attributeIdentifier\":\"users.home-phone\",\"value\":\"48931274\"},{\"attributeIdentifier\":\"users.address\",\"value\":{\"street\":\"Nfea\",\"postalCode\":\"432\",\"city\":\"42\",\"country\":\"li\",\"coAddress\":null}},{\"attributeIdentifier\":\"absidion-portal.users.custom-data\",\"value\":{\"website\":null,\"organization\":{\"name\":null,\"contactData\":{\"street\":null,\"postalCode\":null,\"city\":null,\"country\":\"ch\",\"phone\":null,\"mobile\":null,\"email\":null,\"postfach\":null,\"coAddress\":null},\"website\":null,\"taxNumber\":null,\"canton\":\"bl\"},\"isOrganization\":false}}]}"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeb4",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeb5",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeb6",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeb7",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeb8",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeb9",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "nginx_loris",
+            "method": "udp_flood",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eeba",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "syn",
+            "port": 1058,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eebb",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "syn",
+            "port": 1999,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eebc",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "syn",
+            "port": 3031,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eebd",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "syn",
+            "port": 3268,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eebe",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "syn",
+            "port": 9503,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791db608823a512f285eeaf",
+            "request_id": "6791db618823a512f285eebf",
+            "host": "www.integrationsfoerderungintg.admin.ch",
+            "ip": "162.23.8.217",
+            "type": "tcp",
+            "method": "syn",
+            "port": 9100,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eed1",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/bj/de/home/suche/_jcr_content/search.results.html?_charset_=UTF-8&search=$_1",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eed2",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/bj/de/home/suche/_jcr_content/search.documents.html?_charset_=UTF-8&search=$_1&datefrom=&dateto=",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eed3",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/bj/de/home/suche/_jcr_content/search.contentpages.html?_charset_=UTF-8&search=$_1&datefrom=&dateto=",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eed4",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/bj/de/home/aktuell/mm.html?dyn_startDate=01.01.202$_3&dyn_endDate=22.01.2025&dyn_pageIndex=$_3",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eed5",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/bj/de/home/staat/menschenrechte.html?dyn_pageIndex=$_3",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eed6",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/bj/de/home/aktuell/mm.msg-id-228$_5.html",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eed7",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eed8",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eed9",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eeda",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eedb",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eedc",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eedd",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "nginx_loris",
+            "method": "udp_flood",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eede",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "tcp",
+            "method": "syn",
+            "port": 1112,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eedf",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "tcp",
+            "method": "syn",
+            "port": 749,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eee0",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "tcp",
+            "method": "syn",
+            "port": 1047,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791dca38823a512f285eed0",
+            "request_id": "6791dca38823a512f285eee1",
+            "host": "www.bj.admin.ch",
+            "ip": "162.23.129.88",
+            "type": "tcp",
+            "method": "syn",
+            "port": 2099,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285eefd",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "http",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/tracker/login?redirectPath=/next&fido2=yes",
+            "body": {
+                "type": "str",
+                "value": "username=$_1&password=$_1"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285eefe",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285eeff",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285ef00",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285ef01",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285ef02",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285ef03",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285ef04",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "nginx_loris",
+            "method": "udp_flood",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285ef05",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "syn",
+            "port": 6007,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285ef06",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "syn",
+            "port": 6106,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285ef07",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "syn",
+            "port": 1259,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285ef08",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "syn",
+            "port": 993,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6791ddc08823a512f285eefc",
+            "request_id": "6791ddc08823a512f285ef09",
+            "host": "samil20-a.admin.ch",
+            "ip": "162.23.147.142",
+            "type": "tcp",
+            "method": "syn",
+            "port": 749,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        }
+    ],
+    "randoms": [
+        {
+            "name": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d",
+            "id": "62d8286fddcbb37b0c77c87f",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 11,
+            "max": 11
+        },
+        {
+            "name": "\u0412\u0441\u0435 \u0441\u0438\u043c\u0432\u043e\u043b\u044b 6-12",
+            "id": "62d8fccfb44b5774ee96ec0a",
+            "digit": true,
+            "upper": true,
+            "lower": true,
+            "min": 6,
+            "max": 12
+        },
+        {
+            "name": "\u041f\u0430\u0433\u0438\u043d\u0430\u0446\u0438\u044f (2 \u0441\u0442\u0440)",
+            "id": "62d90c4fb44b5774ee96ec16",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 1,
+            "max": 2
+        },
+        {
+            "name": "\u041f\u0430\u0433\u0438\u043d\u0430\u0446\u0438\u044f (1 \u0441\u0442\u0440)",
+            "id": "62d90e74b44b5774ee96ec1c",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 1,
+            "max": 1
+        },
+        {
+            "name": "\u041a\u043e\u0434 (9)",
+            "id": "62d912fbb44b5774ee96ec1f",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 9,
+            "max": 9
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e (2)",
+            "id": "62d91885b44b5774ee96ec28",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 2,
+            "max": 2
+        },
+        {
+            "name": "\u041f\u0430\u0433\u0438\u043d\u0430\u0446\u0438\u044f (3 \u0441\u0442\u0440)",
+            "id": "62d91990b44b5774ee96ec2f",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 1,
+            "max": 3
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e 4",
+            "id": "62e262e59ea7e45b2ab4e57c",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 4,
+            "max": 4
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e (8)",
+            "id": "62e3a6ed89e76a5c1fd7cac7",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 8,
+            "max": 8
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e (7)",
+            "id": "62e3a7d589e76a5c1fd7cde2",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 7,
+            "max": 7
+        },
+        {
+            "name": "\u043a\u043e\u0434(6)",
+            "id": "62ea3bc2affd481da97548d3",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 6,
+            "max": 6
+        },
+        {
+            "name": "\u0447\u0438\u0441\u043b\u043e 3",
+            "id": "6305d781a419f490fd723fe4",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 3,
+            "max": 3
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e 10",
+            "id": "6305d99aa419f490fd723ff0",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 10,
+            "max": 10
+        },
+        {
+            "name": "\u0411\u043e\u043b\u044c\u0448\u0430\u044f \u0431\u0443\u043a\u0432\u0430 1",
+            "id": "637b3768cd01228f80cf1a15",
+            "digit": false,
+            "upper": true,
+            "lower": false,
+            "min": 1,
+            "max": 1
+        },
+        {
+            "name": "16 \u0447\u0438\u0441\u043b\u043e",
+            "id": "637dd156a04c19b9931f7fc5",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 16,
+            "max": 16
+        },
+        {
+            "name": "\u0447\u0438\u0441\u043b\u043e 5",
+            "id": "63c7a25ff4f35f8e67cc5a4d",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 5,
+            "max": 5
+        },
+        {
+            "name": "\u041f\u0440\u043e\u043f\u0438\u0441\u043d\u044b\u0435 \u0431\u0443\u043a\u0432\u044b 1-3",
+            "id": "64ba474f308087d8a5524d2b",
+            "digit": false,
+            "upper": true,
+            "lower": false,
+            "min": 1,
+            "max": 3
+        },
+        {
+            "name": "\u0421\u043b\u043e\u0432\u043e",
+            "id": "64ba4811308087d8a5524d5c",
+            "digit": false,
+            "upper": true,
+            "lower": true,
+            "min": 2,
+            "max": 9
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e \u0438 \u0411\u0443\u043a\u0432\u0430",
+            "id": "64ba747c308087d8a5525aef",
+            "digit": true,
+            "upper": true,
+            "lower": false,
+            "min": 1,
+            "max": 2
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e 16",
+            "id": "64bab375f0546def3d535409",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 16,
+            "max": 26
+        },
+        {
+            "name": "\u0427\u0438\u0441\u043b\u043e 9",
+            "id": "64bfc5ea02ebca2589b758b4",
+            "digit": true,
+            "upper": false,
+            "lower": false,
+            "min": 9,
+            "max": 9
+        }
+    ]
+}
