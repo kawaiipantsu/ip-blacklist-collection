@@ -161,6 +161,326 @@
             "headers": null
         },
         {
+            "target_id": "642fe414318a95e391426575",
+            "request_id": "63da88b470fa80072300ed41",
+            "host": "itd.rada.gov.ua",
+            "ip": "193.19.152.11",
+            "type": "http",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/idsrv/Account/Login",
+            "body": {
+                "type": "str",
+                "value": "Username=$_1%40gmail.com&Password=$_1&button=login&__RequestVerificationToken=CfDJ8LQVXos7SFhLn6UKWfaUW4pNtY52vfTQtuMPELV2YIaRtY7pZNZD_47LaLWVCvFgvknQ1m8mVV2LicGfI-cg9zYwE02PP21cTXh6LkGC3hk2vJWzxjkNF3W4YwWN3vikitDnuUgPfE_DuW7Rr-C3X6c&RememberLogin=false"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe414318a95e391426575",
+            "request_id": "63da88b570fa80072300ed42",
+            "host": "itd.rada.gov.ua",
+            "ip": "193.19.152.11",
+            "type": "http",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/services/Account/restorepassword",
+            "body": {
+                "type": "str",
+                "value": "__RequestVerificationToken=HaXD59h_86v2Hqe47PmfTI3RzRE7yDYEYzhbdzkUt6eAXulcvzhxP-pNEx9oEv21dZYww0HAoricRVpmNRvPjwFKs0E1&mail=$_1%40gmail.com&smplCaptcha=8bea9ae0-5ff0-4c90-b319-1a48849c1d9b&veffort=yjtyjyt&crac=crac"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe414318a95e391426575",
+            "request_id": "63da88b570fa80072300ed43",
+            "host": "itd.rada.gov.ua",
+            "ip": "193.19.152.11",
+            "type": "http",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/services/Account/Create",
+            "body": {
+                "type": "str",
+                "value": "SURNAME=$_1&FIRSTNAME=$_1&PATRONYMIC=&MAIL=$_1%40GMAIL.COM&PHONE=%2B380564574679&REGION_ID=-1&SETTLEMENT=$_1&STREET=$_1&BUILDING=$_1&HOUSE=&crac=crac"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe414318a95e391426575",
+            "request_id": "63da88b570fa80072300ed44",
+            "host": "itd.rada.gov.ua",
+            "ip": "193.19.152.11",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/services/Petitions?sname=$_1&is_sname=True&aname=published",
+            "body": {
+                "type": "",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe414318a95e391426575",
+            "request_id": "63da88b570fa80072300ed45",
+            "host": "itd.rada.gov.ua",
+            "ip": "193.19.152.11",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe414318a95e391426575",
+            "request_id": "63da88b570fa80072300ed46",
+            "host": "itd.rada.gov.ua",
+            "ip": "193.19.152.11",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": false,
+            "path": "",
+            "body": {
+                "type": "",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe414318a95e391426575",
+            "request_id": "63db6c6e8e6f773be04d5e20",
+            "host": "itd.rada.gov.ua",
+            "ip": "193.19.152.11",
+            "type": "nginx_loris",
+            "method": "",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "63720cad7bd7dd55a79040b8",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": false,
+            "path": "",
+            "body": {
+                "type": "",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "63720cad7bd7dd55a79040b9",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": false,
+            "path": "",
+            "body": {
+                "type": "",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "66e2f2043f5f484635b93a97",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/searchresult?key=$_1",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "66e2f2393f5f484635b93a99",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/news?page=$_2",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "66e2f2aa3f5f484635b93aa1",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/faq",
+            "body": {
+                "type": "str",
+                "value": "form_id=1&name=%D0%9F%D0%B5%D1%82%D1%80%D0%BE&email=$_1%40gmail.com&company=%D0%9A%D0%B0%D0%B2%D1%83%D0%BD&question=%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9&g-recaptcha-response=03AFcWeA5JaKeglx-PvdbdqvsVf8OfhQ3AgQ9QJ2C-LvZWcsmvgJ3IktDLyVxNo8WTy0xus431g_SVgSl8dFVCoDqd7kQQuLvDN9fmU4cHZEk7rK6_jXvCTAUhZwNouZRhkXisJujEApqfsobseENw-Q_5l2Qo1poYT8vMxXmn-ExXVwT4ymezBcbjEQeUeKYdt5CowzZzTG1s0zwYVlku4mHxk5op2laP3oQtAtyKVYLYPChZzlaog-b_2z7NKJcjKgGSNjjgZcW3Y-7sYf4hjf1ZQtmy37LrtbjqFZrHaCdukO6cRv9FZCvKnDZPhd9dWF4n-gVmukfUWFw6rpkqpg20NyMxWcz2Z6el19jgfaqHjMH5pumqBmrk-EfkXeNgkcL4e8JrmTry3gNaE98xYOD3MgIo9emGeR0w7cQRdOX_bckjZhBzeOWSMCyCzsnciZ5wChfeO9lGl-MNOnwpi0I3iDxWZGh_poR6UQXM-t13LgnYSHtzGYKL83_TLqYVLXsweTK7BG4QxsuIMj-DROJ1Z1pAh4lr1BlB_Gz9tkSRD_JivivhFYrQoaKlQh56OKtTLtPt326L38ruytJ-FuEEqiixcYicivrf_4ZHAmgM1Pp-Cb9Et-tfUbDFqiXewrWeD6vijFNsWX-31yswiwS_m4dJ_lG6RWi6uM2fXxSQo9HWLbKMOAf-0R54m0mrArSH3AZB7jEMkc-FdUvwEEY3A4hNbyJ_TlRaTcKvQvdzbFVXspVV7p9ZGDYllgGcInwSowmXpTwOqSyKC8NLGo0FSfDf3VjFrHP1VbdVj58RiMlLhL1iCNc"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "66e2f3713f5f484635b93aab",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "nginx_loris",
+            "method": "",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "66e2f3753f5f484635b93aac",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "66e2f37c3f5f484635b93aad",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "6798ade18823a512f287139b",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/combine/81e03b5414f1d01976c20ce286d038a9-17375398$_5",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "6798adf28823a512f287139d",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "http",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/services/povidomlennya-pro-pochatok-pidgotovchih-robit",
+            "body": {
+                "type": "str",
+                "value": "lang=$_1"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "6798ae018823a512f287139e",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "http",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/services/covid19-sertifikat-pro-vakcinaciyu",
+            "body": {
+                "type": "str",
+                "value": "email=$_1%40gmail.com"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "6798ae108823a512f28713a0",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/plugins/kitsoft/pages/assets/js/ajax.js?v=2.1.$_5",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "642fe486318a95e3914266db",
+            "request_id": "6798ae238823a512f28713a2",
+            "host": "diia.gov.ua",
+            "ip": "195.189.240.75",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/themes/diia/assets/vendor/validate-1.19.$_5/jquery.validate.min.js",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
             "target_id": "642fe4a4318a95e391426721",
             "request_id": "639c6e8cc9934a4752875362",
             "host": "www.csm.it",
@@ -3089,6 +3409,214 @@
             "headers": null
         },
         {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df7c",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/laws/show/z01$_5-2$_3#Text",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df7d",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/laws/find/a?text=$_1",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df7e",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/laws/show/$_11-$_5#Text",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df7f",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/laws/main/oo$_3",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df80",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/laws/main?find=2&dat=00000000&user=a&text=$_1&textl=1&bool=and&org=0&typ=0&yer=0000&mon=00&day=00&dat_from=&dat_to=&datl=0&numl=2&num=&minjustl=2&minjust=",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df81",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/laws/main/n202408$_5",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df82",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df83",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df84",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df85",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df86",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df87",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "66cc42edf2b35589b0e7df7b",
+            "request_id": "66cc42edf2b35589b0e7df88",
+            "host": "zakon.rada.gov.ua",
+            "ip": "193.19.153.66",
+            "type": "nginx_loris",
+            "method": "udp_flood",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
             "target_id": "6798b8de8823a512f2871687",
             "request_id": "6798b8df8823a512f2871688",
             "host": "data.gov.ua",
@@ -3397,6 +3925,150 @@
             "request_id": "6798b8df8823a512f287169b",
             "host": "data.gov.ua",
             "ip": "195.189.240.230",
+            "type": "nginx_loris",
+            "method": "udp_flood",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6798bada8823a512f28716b5",
+            "request_id": "6798bada8823a512f28716b6",
+            "host": "guide.diia.gov.ua",
+            "ip": "195.189.240.93",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/search/?q=$_1",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6798bada8823a512f28716b5",
+            "request_id": "6798bada8823a512f28716b7",
+            "host": "guide.diia.gov.ua",
+            "ip": "195.189.240.93",
+            "type": "http2",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/asc/list/?draw=4&columns%5B0%5D%5Bdata%5D=code&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=name&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=address__region__name&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=5330&length=10&search%5Bvalue%5D=&search%5Bregex%5D=false&_=1738060508845",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6798bada8823a512f28716b5",
+            "request_id": "6798bada8823a512f28716b8",
+            "host": "guide.diia.gov.ua",
+            "ip": "195.189.240.93",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6798bada8823a512f28716b5",
+            "request_id": "6798bada8823a512f28716b9",
+            "host": "guide.diia.gov.ua",
+            "ip": "195.189.240.93",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6798bada8823a512f28716b5",
+            "request_id": "6798bada8823a512f28716ba",
+            "host": "guide.diia.gov.ua",
+            "ip": "195.189.240.93",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6798bada8823a512f28716b5",
+            "request_id": "6798bada8823a512f28716bb",
+            "host": "guide.diia.gov.ua",
+            "ip": "195.189.240.93",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6798bada8823a512f28716b5",
+            "request_id": "6798bada8823a512f28716bc",
+            "host": "guide.diia.gov.ua",
+            "ip": "195.189.240.93",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6798bada8823a512f28716b5",
+            "request_id": "6798bada8823a512f28716bd",
+            "host": "guide.diia.gov.ua",
+            "ip": "195.189.240.93",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "6798bada8823a512f28716b5",
+            "request_id": "6798bada8823a512f28716be",
+            "host": "guide.diia.gov.ua",
+            "ip": "195.189.240.93",
             "type": "nginx_loris",
             "method": "udp_flood",
             "port": 443,
