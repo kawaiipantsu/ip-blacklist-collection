@@ -3269,38 +3269,6 @@
             ]
         },
         {
-            "target_id": "6a3ce02c61f8ab7eedede8a2",
-            "request_id": "6a3cf12761f8ab7eededea78",
-            "host": "koleso-logistics.com",
-            "ip": "204.168.239.222",
-            "type": "tcp",
-            "method": "syn",
-            "port": 443,
-            "use_ssl": true,
-            "path": "",
-            "body": {
-                "type": "str",
-                "value": ""
-            },
-            "headers": null
-        },
-        {
-            "target_id": "6a3ce02c61f8ab7eedede8a2",
-            "request_id": "6a3cf12e61f8ab7eededea79",
-            "host": "koleso-logistics.com",
-            "ip": "204.168.239.222",
-            "type": "nginx_loris",
-            "method": "",
-            "port": 443,
-            "use_ssl": true,
-            "path": "",
-            "body": {
-                "type": "str",
-                "value": ""
-            },
-            "headers": null
-        },
-        {
             "target_id": "6a3ce64861f8ab7eedede94b",
             "request_id": "6a3ce64961f8ab7eedede94c",
             "host": "my.koleso-logistics.com",
@@ -3314,12 +3282,7 @@
                 "type": "str",
                 "value": "user_login=$_1&user_pass=arebnaipn&login_wpnonce=185c6ca6e3&_wp_http_referer=%2F&redirect_to=%2F%3Faction-rcl%3Dlogin"
             },
-            "headers": [
-                {
-                    "name": "Content-Type",
-                    "value": "text/html; charset=UTF-8"
-                }
-            ]
+            "headers": null
         },
         {
             "target_id": "6a3ce64861f8ab7eedede94b",
@@ -3423,38 +3386,6 @@
             "headers": null
         },
         {
-            "target_id": "6a3ce64861f8ab7eedede94b",
-            "request_id": "6a3cee9361f8ab7eededea29",
-            "host": "my.koleso-logistics.com",
-            "ip": "204.168.239.222",
-            "type": "tcp",
-            "method": "syn",
-            "port": 443,
-            "use_ssl": true,
-            "path": "",
-            "body": {
-                "type": "str",
-                "value": ""
-            },
-            "headers": null
-        },
-        {
-            "target_id": "6a3ce64861f8ab7eedede94b",
-            "request_id": "6a3cee9961f8ab7eededea2a",
-            "host": "my.koleso-logistics.com",
-            "ip": "204.168.239.222",
-            "type": "nginx_loris",
-            "method": "",
-            "port": 443,
-            "use_ssl": true,
-            "path": "",
-            "body": {
-                "type": "str",
-                "value": ""
-            },
-            "headers": null
-        },
-        {
             "target_id": "6a3ce75361f8ab7eedede968",
             "request_id": "6a3ce75461f8ab7eedede969",
             "host": "tamozhennoe-oformlenie.pridexpress.com.ua",
@@ -3513,38 +3444,6 @@
             "headers": null
         },
         {
-            "target_id": "6a3ce75361f8ab7eedede968",
-            "request_id": "6a3cf1e861f8ab7eededea8d",
-            "host": "tamozhennoe-oformlenie.pridexpress.com.ua",
-            "ip": "185.68.16.5",
-            "type": "tcp",
-            "method": "syn",
-            "port": 443,
-            "use_ssl": true,
-            "path": "",
-            "body": {
-                "type": "str",
-                "value": ""
-            },
-            "headers": null
-        },
-        {
-            "target_id": "6a3ce75361f8ab7eedede968",
-            "request_id": "6a3cf1ee61f8ab7eededea8f",
-            "host": "tamozhennoe-oformlenie.pridexpress.com.ua",
-            "ip": "185.68.16.5",
-            "type": "nginx_loris",
-            "method": "",
-            "port": 443,
-            "use_ssl": true,
-            "path": "",
-            "body": {
-                "type": "str",
-                "value": ""
-            },
-            "headers": null
-        },
-        {
             "target_id": "6a3ce97e61f8ab7eedede9a7",
             "request_id": "6a3ce97f61f8ab7eedede9a8",
             "host": "mail.ukrbroker.com.ua",
@@ -3586,8 +3485,8 @@
             "request_id": "6a3ce97f61f8ab7eedede9aa",
             "host": "mail.ukrbroker.com.ua",
             "ip": "176.114.1.160",
-            "type": "tcp",
-            "method": "syn",
+            "type": "udp",
+            "method": "udp_flood",
             "port": 53,
             "use_ssl": true,
             "path": "",
@@ -3697,101 +3596,6 @@
                     "value": "application/json;charset=utf-8"
                 }
             ]
-        },
-        {
-            "target_id": "6a3ced3f61f8ab7eededea01",
-            "request_id": "6a3ced3f61f8ab7eededea02",
-            "host": "doc.bkport.com",
-            "ip": "217.159.186.241",
-            "type": "http2",
-            "method": "POST",
-            "port": 443,
-            "use_ssl": true,
-            "path": "/connection",
-            "body": {
-                "type": "str",
-                "value": "$_1"
-            },
-            "headers": [
-                {
-                    "name": "Content-Type",
-                    "value": "text/plain;charset=UTF-8"
-                }
-            ]
-        },
-        {
-            "target_id": "6a3ced3f61f8ab7eededea01",
-            "request_id": "6a3ced3f61f8ab7eededea03",
-            "host": "doc.bkport.com",
-            "ip": "217.159.186.241",
-            "type": "http2",
-            "method": "POST",
-            "port": 443,
-            "use_ssl": true,
-            "path": "/pong",
-            "body": {
-                "type": "str",
-                "value": "$_1"
-            },
-            "headers": [
-                {
-                    "name": "Content-Type",
-                    "value": "text/plain;charset=UTF-8"
-                }
-            ]
-        },
-        {
-            "target_id": "6a3ced3f61f8ab7eededea01",
-            "request_id": "6a3ced3f61f8ab7eededea04",
-            "host": "doc.bkport.com",
-            "ip": "217.159.186.241",
-            "type": "tcp",
-            "method": "syn",
-            "port": 80,
-            "use_ssl": true,
-            "path": "",
-            "body": {
-                "type": "str",
-                "value": ""
-            },
-            "headers": null
-        },
-        {
-            "target_id": "6a3ceda861f8ab7eededea0b",
-            "request_id": "6a3ceda961f8ab7eededea0c",
-            "host": "v.bkport.com",
-            "ip": "195.138.84.222",
-            "type": "http",
-            "method": "POST",
-            "port": 443,
-            "use_ssl": true,
-            "path": "/%2bwebvpn%2b/index.html",
-            "body": {
-                "type": "str",
-                "value": "tgroup=&next=&tgcookieset=&csrf_token=afcc2a579511469ce1299e89e4f2785aede573cc&group_list=Anyconnect_Test_duo&username=$_1&password=&Login=Logon"
-            },
-            "headers": [
-                {
-                    "name": "Content-Type",
-                    "value": "application/x-www-form-urlencoded"
-                }
-            ]
-        },
-        {
-            "target_id": "6a3ceda861f8ab7eededea0b",
-            "request_id": "6a3ceda961f8ab7eededea0d",
-            "host": "v.bkport.com",
-            "ip": "195.138.84.222",
-            "type": "http",
-            "method": "GET",
-            "port": 443,
-            "use_ssl": true,
-            "path": "/+CSCOE+/logon.html?a0=$_5&a1=&a2=&a3=1",
-            "body": {
-                "type": "str",
-                "value": ""
-            },
-            "headers": null
         }
     ],
     "randoms": [
