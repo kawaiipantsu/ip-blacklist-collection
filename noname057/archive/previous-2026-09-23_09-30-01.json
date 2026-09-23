@@ -1,6 +1,166 @@
 {
     "targets": [
         {
+            "target_id": "67bc048f2c19006a3daa5361",
+            "request_id": "67bc048f2c19006a3daa5362",
+            "host": "www.regione.emilia-romagna.it",
+            "ip": "193.43.202.93",
+            "type": "http",
+            "method": "GET",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/search?SearchableText=$_1",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "67bc048f2c19006a3daa5361",
+            "request_id": "67bc048f2c19006a3daa5363",
+            "host": "www.regione.emilia-romagna.it",
+            "ip": "193.43.202.93",
+            "type": "http",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/++api++/notizie/@querystring-search",
+            "body": {
+                "type": "str",
+                "value": "{\"metadata_fields\":\"_all\",\"b_size\":\"6\",\"limit\":1000,\"query\":[{\"i\":\"portal_type\",\"o\":\"plone.app.querystring.operation.selection.any\",\"v\":[\"News Item\"]},{\"i\":\"path\",\"o\":\"plone.app.querystring.operation.string.absolutePath\",\"v\":\"a590ef4e76cd4bc1a8565f9a3b2bc1c5::-1\"}],\"sort_on\":\"effective\",\"sort_order\":\"descending\",\"_cache_key\":\"a590ef4e76cd4bc1a8565f9a3b2bc1c5_1735808447\",\"b_start\":$_5}"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "67bc048f2c19006a3daa5361",
+            "request_id": "67bc048f2c19006a3daa5364",
+            "host": "www.regione.emilia-romagna.it",
+            "ip": "193.43.202.93",
+            "type": "http",
+            "method": "POST",
+            "port": 443,
+            "use_ssl": true,
+            "path": "/++api++/notizie/cerca-una-notizia/@querystring-search",
+            "body": {
+                "type": "str",
+                "value": "{\"metadata_fields\":\"_all\",\"b_size\":\"6\",\"limit\":\"1000\",\"query\":[{\"i\":\"portal_type\",\"o\":\"plone.app.querystring.operation.selection.any\",\"v\":[\"News Item\",\"ExternalNews\"]},{\"i\":\"path\",\"o\":\"plone.app.querystring.operation.string.absolutePath\",\"v\":\"ad0e0d1b7eeb4a53b8e39d59d6693300\"},{\"i\":\"path\",\"o\":\"plone.app.querystring.operation.string.absolutePath\",\"v\":\"a164db857ef34428b03235e7d32058ec\"},{\"i\":\"SearchableText\",\"o\":\"plone.app.querystring.operation.string.contains\",\"v\":\"$_1\"}],\"sort_on\":\"effective\",\"sort_order\":\"descending\",\"_cache_key\":\"a75c1a48d51b4a9f902d07c739683291_1713352549\",\"b_start\":0}"
+            },
+            "headers": null
+        },
+        {
+            "target_id": "67bc048f2c19006a3daa5361",
+            "request_id": "67bc048f2c19006a3daa5365",
+            "host": "www.regione.emilia-romagna.it",
+            "ip": "193.43.202.93",
+            "type": "tcp",
+            "method": "syn",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "67bc048f2c19006a3daa5361",
+            "request_id": "67bc048f2c19006a3daa5366",
+            "host": "www.regione.emilia-romagna.it",
+            "ip": "193.43.202.93",
+            "type": "tcp",
+            "method": "ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "67bc048f2c19006a3daa5361",
+            "request_id": "67bc048f2c19006a3daa5367",
+            "host": "www.regione.emilia-romagna.it",
+            "ip": "193.43.202.93",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 80,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "67bc048f2c19006a3daa5361",
+            "request_id": "67bc048f2c19006a3daa5368",
+            "host": "www.regione.emilia-romagna.it",
+            "ip": "193.43.202.93",
+            "type": "tcp",
+            "method": "syn",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "67bc048f2c19006a3daa5361",
+            "request_id": "67bc048f2c19006a3daa5369",
+            "host": "www.regione.emilia-romagna.it",
+            "ip": "193.43.202.93",
+            "type": "tcp",
+            "method": "ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "67bc048f2c19006a3daa5361",
+            "request_id": "67bc048f2c19006a3daa536a",
+            "host": "www.regione.emilia-romagna.it",
+            "ip": "193.43.202.93",
+            "type": "tcp",
+            "method": "syn_ack",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
+            "target_id": "67bc048f2c19006a3daa5361",
+            "request_id": "67bc048f2c19006a3daa536b",
+            "host": "www.regione.emilia-romagna.it",
+            "ip": "193.43.202.93",
+            "type": "nginx_loris",
+            "method": "udp_flood",
+            "port": 443,
+            "use_ssl": true,
+            "path": "",
+            "body": {
+                "type": "str",
+                "value": ""
+            },
+            "headers": null
+        },
+        {
             "target_id": "67bc08152c19006a3daa5410",
             "request_id": "67bc08152c19006a3daa5411",
             "host": "www.regione.veneto.it",
